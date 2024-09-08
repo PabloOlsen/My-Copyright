@@ -1,0 +1,28 @@
+spawn(function() local function destroyHttpSpy()
+        local HttpSpy = game.CoreGui:FindFirstChild("HttpSpy")
+        if HttpSpy then
+            HttpSpy:Destroy()
+            print("You Can't Get Anything In Our Script Because Our Script Have AntiSpy")
+        end
+    end
+
+    destroyHttpSpy()
+end)
+
+hookfunction(print, function(...)
+    return
+end)
+hookfunction(print, function(...)
+    return
+end)
+hookfunction(warn, function(...)
+    return
+end)
+hookfunction(error, function(...)
+    return
+end)
+if Script == "Fluxus" then
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/PabloOlsen/My-Copyright/main/Fluxus%20Scripts"))()
+elseif Script == "Codex" then
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/PabloOlsen/My-Copyright/main/Codex%20Scripts"))()
+end
