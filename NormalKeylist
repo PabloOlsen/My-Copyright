@@ -1,0 +1,23 @@
+local keylist = {"iM7M8bCQFXV", "OmULOeYPYGh", "HxcxOjsOxWw", "3BHhz3HpMUl"}
+local found = false
+
+for i, v in pairs(keylist) do 
+    if script_key == v then 
+       found = true
+       break 
+    end
+end
+
+if found then
+   print("Whitelist...")
+   print("Correct Key And Valid Key")
+   print("Done")
+   print("You Can Use This Script")
+else
+   print("Whitelist...")
+   print("Wrong Key")
+   print("Done")
+   print("You Can't Use This Script")
+   setclipboard("https://discord.gg/qnAdQGsJeQ")
+   game.Players.LocalPlayer:Kick("The Key Is Wrong, Please Check The Key And Script. If It's Wrong, Report It To AfxcaxiRoblox") 
+end
