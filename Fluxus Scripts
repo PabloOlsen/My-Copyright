@@ -61,15 +61,15 @@ OrionLib:MakeNotification({
 print("Axionix")
 OrionLib:MakeNotification({
 	Name = "Notification",
-	Content = "https://discord.gg/8fTeuyzRCf",
+	Content = "https://discord.gg/C6VaVKsapN",
 	Image = "rbxassetid://4483345998",
 	Time = 2
 })
 print("Axionix")
 if not _G.IsVaidIpWhilelist then
    print("Unvalid IP, You Can't Use This Script")
-   setclipboard("https://discord.gg/8fTeuyzRCf")
-   game.Players.LocalPlayer:Kick("Unvalid IP And Please Check And Try Again, Notice: https://discord.gg/8fTeuyzRCf") 
+   setclipboard("https://discord.gg/C6VaVKsapN")
+   game.Players.LocalPlayer:Kick("Unvalid IP And Please Check And Try Again, Notice: https://discord.gg/C6VaVKsapN") 
 else
 if _G.Script == "LuxuryHub" then
    _G.Key = "main_d4i0QoDXOZzaF1lnmCOH"
@@ -160,35 +160,35 @@ end
 print("Axionix")
 loadstring(game:HttpGet("https://pastefy.app/dwq6zCn1/raw"))()
 print("Axionix")
-getgenv().Key = "https://discord.gg/8fTeuyzRCf"
+getgenv().Key = "https://discord.gg/C6VaVKsapN"
 Key1 = getgenv().Key
-getgenv().id = "https://discord.gg/8fTeuyzRCf"
+getgenv().id = "https://discord.gg/C6VaVKsapN"
 ID1 = getgenv().id
-getgenv().Key = "https://discord.gg/8fTeuyzRCf"
+getgenv().Key = "https://discord.gg/C6VaVKsapN"
 Key2 = getgenv().Key
-getgenv().key = "https://discord.gg/8fTeuyzRCf"
+getgenv().key = "https://discord.gg/C6VaVKsapN"
 Key3 = getgenv().key
-getgenv().key = 'https://discord.gg/8fTeuyzRCf'
+getgenv().key = 'https://discord.gg/C6VaVKsapN'
 Key4 = getgenv().key
-getgenv().key = 'https://discord.gg/8fTeuyzRCf'
+getgenv().key = 'https://discord.gg/C6VaVKsapN'
 Key5 = getgenv().key
-script_key="https://discord.gg/8fTeuyzRCf";
+script_key="https://discord.gg/C6VaVKsapN";
 Key6 = script_key
-script_key = "https://discord.gg/8fTeuyzRCf";
+script_key = "https://discord.gg/C6VaVKsapN";
 Key7 = script_key
-_G.Key = "https://discord.gg/8fTeuyzRCf"
+_G.Key = "https://discord.gg/C6VaVKsapN"
 Key8 = _G.Key
-_G.DiscordId = "https://discord.gg/8fTeuyzRCf"
+_G.DiscordId = "https://discord.gg/C6VaVKsapN"
 ID2 = _G.DiscordId
-script_key = "https://discord.gg/8fTeuyzRCf"
+script_key = "https://discord.gg/C6VaVKsapN"
 Key9 = _G.Key
-script_key ='https://discord.gg/8fTeuyzRCf'
+script_key ='https://discord.gg/C6VaVKsapN'
 Key10 = script_key
-getgenv().License = "https://discord.gg/8fTeuyzRCf"
+getgenv().License = "https://discord.gg/C6VaVKsapN"
 Key11 = getgenv().License
-getgenv().UUID = "https://discord.gg/8fTeuyzRCf"
+getgenv().UUID = "https://discord.gg/C6VaVKsapN"
 Key12 = getgenv().UUID
-getgenv().Keys = "https://discord.gg/8fTeuyzRCf"
+getgenv().Keys = "https://discord.gg/C6VaVKsapN"
 Key13 = getgenv().Keys
 print("Axionix")
 loadstring(game:HttpGet("https://pastefy.app/dwq6zCn1/raw"))()
