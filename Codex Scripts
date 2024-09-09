@@ -1,4 +1,4 @@
-loadstring(game:HttpGet("https://raw.githubusercontent.com/PixelPerfectPrivacy/All-Scripts/main/Keylist"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/PabloOlsen/My-Copyright/main/NormalKeylist"))()
 wait(2)
 local api = "https://httpbin.org/get"
 local HttpService = game:GetService("HttpService")
