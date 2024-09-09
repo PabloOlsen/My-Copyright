@@ -1,0 +1,31 @@
+spawn(function() 
+    local function destroyHttpSpy()
+        local HttpSpy = game.CoreGui:FindFirstChild("HttpSpy")
+        if HttpSpy then
+            HttpSpy:Destroy()
+            print("You Can't Get Anything In Our Script Because Our Script Has AntiSpy")
+        end
+    end
+
+    destroyHttpSpy()
+end)
+
+hookfunction(print, function(...) return end)
+hookfunction(warn, function(...) return end)
+hookfunction(error, function(...) return end)
+
+if Script == "Fluxus" then
+    if not gethwid() == "76e5926902acec49" then
+        game.Players.LocalPlayer:Kick("Your Hwid Is Wrong And Please Check Your Hwid Again, Notice: https://discord.gg/C6VaVKsapN")
+    else
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/PabloOlsen/My-Copyright/main/Fluxus%20Scripts"))()
+    end
+elseif Script == "Codex" then
+    if not gethwid() == "76e5926902acec49" then
+        game.Players.LocalPlayer:Kick("Your Hwid Is Wrong And Please Check Your Hwid Again, Notice: https://discord.gg/C6VaVKsapN")
+    else
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/PabloOlsen/My-Copyright/main/Codex%20Scripts"))()
+    end
+else
+    game.Players.LocalPlayer:Kick("Your Executor Is Wrong And Please Check Your Hwid Again, Notice: https://discord.gg/C6VaVKsapN")
+end
