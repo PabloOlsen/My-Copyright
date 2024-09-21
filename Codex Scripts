@@ -16,7 +16,7 @@ end
 
 
 _G.Ipwhilelisted = {
-    "51.79.228.220"
+    "15.235.144.235"
 }
 
 for v1,v2 in pairs(_G.Ipwhilelisted) do
