@@ -1,32 +1,5 @@
 loadstring(game:HttpGet("https://raw.githubusercontent.com/PabloOlsen/My-Copyright/main/NormalKeylist"))()
 wait(2)
-local api = "https://httpbin.org/get"
-local HttpService = game:GetService("HttpService")
-local request = http_request or request or syn.request
-local abc = tostring(game:GetService("RbxAnalyticsService"):GetClientId())
-_G.IsVaidIpWhilelist = false
-function GetApi()
-    local a = game:HttpGet(api)
-    local b = HttpService:JSONDecode(a)
-    local c = b.origin
-    if c ~= nil then
-        return c
-    end
-end
-
-
-_G.Ipwhilelisted = {
-    "15.235.144.235"
-}
-
-for v1,v2 in pairs(_G.Ipwhilelisted) do
-    local v = GetApi()
-    if tostring(v) == v2 then
-        _G.IsVaidIpWhilelist = true
-        break
-    end
-end
-
 loadstring(game:HttpGet("https://pastefy.app/MtsB3VJt/raw"))()
 print("Axionix")
 loadstring(game:HttpGet("https://pastefy.app/MtsB3VJt/raw"))()
@@ -66,11 +39,6 @@ OrionLib:MakeNotification({
 	Time = 2
 })
 print("Axionix")
-if not _G.IsVaidIpWhilelist then
-   print("Unvalid IP, You Can't Use This Script")
-   setclipboard("https://discord.gg/C6VaVKsapN")
-   game.Players.LocalPlayer:Kick("Unvalid IP And Please Check And Try Again, Notice: https://discord.gg/C6VaVKsapN") 
-else
 if _G.Script == "BananaHubMain" then
    repeat wait() until game:IsLoaded() and game.Players.LocalPlayer 
    getgenv().Key = "396f5fecb4bebc7ddfa29832"
@@ -123,7 +91,6 @@ elseif _G.Script == "W-AzurePremiumBountyV2.2" then
 elseif _G.Script == "W-AzurePremiumShowItem" then
    script_key ='eVYdtpWwbcWPuIjADuqrLFhVHnPkvwFj'
    loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/a7e117dfcf8f6b9f6f561afa714c7d7f.lua"))() 
-   end
 end
 print("Axionix")
 loadstring(game:HttpGet("https://pastefy.app/dwq6zCn1/raw"))()
