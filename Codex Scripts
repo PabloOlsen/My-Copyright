@@ -26,12 +26,6 @@ for v1,v2 in pairs(_G.Ipwhilelisted) do
         break
     end
 end
-
-loadstring(game:HttpGet("https://pastefy.app/MtsB3VJt/raw"))()
-print("Axionix")
-loadstring(game:HttpGet("https://pastefy.app/MtsB3VJt/raw"))()
-print("Axionix")
-loadstring(game:HttpGet("https://pastefy.app/MtsB3VJt/raw"))()
 print("Axionix")
 loadstring(game:HttpGet("https://pastefy.app/dwq6zCn1/raw"))()
 print("Axionix")
@@ -154,6 +148,9 @@ elseif _G.Script == "SwitchHubProThai" then
 elseif _G.Script == "SyntaxAOT" then
    getgenv().Keys = "1186329289809350621"
    loadstring(game:HttpGet("https://syntax.alphes.net/Files/phagocytosis.lua"))()
+else
+   warn("An Error Occurred While Selecting Script, The Script You Selected Is Not Supported And Please Check And Try Again")
+   game:GetService("Players").LocalPlayer:kick("The Script You Selected Is Not Supported And Please Check And Try Again")
    end
 end
 print("Axionix")
