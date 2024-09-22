@@ -69,9 +69,6 @@ if _G.Script == "MaruHub" then
    print("123")
 elseif _G.Script == "BananaHubMain" then
    print("123")
-else
-   warn("An Error Occurred While Selecting Script, The Script You Selected Is Not Supported And Please Check And Try Again")
-   game:GetService("Players").LocalPlayer:kick("The Script You Selected Is Not Supported And Please Check And Try Again")
    end
 end
 print("Axionix")
