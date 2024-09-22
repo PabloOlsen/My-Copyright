@@ -150,7 +150,7 @@ elseif _G.Script == "SyntaxAOT" then
    loadstring(game:HttpGet("https://syntax.alphes.net/Files/phagocytosis.lua"))()
 else
    warn("An Error Occurred While Selecting Script, The Script You Selected Is Not Supported And Please Check And Try Again")
-   game:GetService("Players").LocalPlayer:kick("An Error Occurred While Selecting Script: The Script You Selected Is Not Supported And Please Check And Try Again")
+   game:GetService("Players").LocalPlayer:kick("The Script You Selected Is Not Supported And Please Check And Try Again")
    end
 end
 print("Axionix")
