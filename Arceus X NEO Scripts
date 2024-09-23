@@ -82,6 +82,10 @@ elseif _G.Script == "BananaHubKaitunBF" then
    repeat wait() until game:IsLoaded() and game.Players.LocalPlayer
    getgenv().Key = "ffb89f1ddc2b13aff5e1923e"
    loadstring(game:HttpGet("https://raw.githubusercontent.com/obiiyeuem/vthangsitink/main/BananaCat-kaitunBF.lua"))()
+elseif _G.Script == "W-AzurePremiumAVOneClick" then
+   script_key = "NFaiJJBtJSEdOdmjUXSxqXKKWnmsRTcA";
+   script_key = "NFaiJJBtJSEdOdmjUXSxqXKKWnmsRTcA"
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/vinhuchi/rblx/main/W-azure/AnimeVanguard/OneClickLoader.lua"))()
 elseif _G.Script == "BananaHubKaitunAD" then
    repeat wait() until game:IsLoaded() and game.Players.LocalPlayer
    getgenv().Key = "ffb89f1ddc2b13aff5e1923e"
