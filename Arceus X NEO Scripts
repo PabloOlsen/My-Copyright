@@ -115,6 +115,10 @@ elseif _G.Script == "W-AzurePremiumADOneClick" then
    script_key = "NFaiJJBtJSEdOdmjUXSxqXKKWnmsRTcA";
    script_key = "NFaiJJBtJSEdOdmjUXSxqXKKWnmsRTcA"
    loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/950b9999b1274e4d6f9fadc85fe2d77e.lua"))()
+elseif _G.Script == "W-AzurePremiumAVOneClick" then
+   script_key = "NFaiJJBtJSEdOdmjUXSxqXKKWnmsRTcA";
+   script_key = "NFaiJJBtJSEdOdmjUXSxqXKKWnmsRTcA"
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/vinhuchi/rblx/main/W-azure/AnimeVanguard/OneClickLoader.lua"))()
 elseif _G.Script == "W-AzurePremiumADGemSender" then
    script_key = "NFaiJJBtJSEdOdmjUXSxqXKKWnmsRTcA";
    script_key = "NFaiJJBtJSEdOdmjUXSxqXKKWnmsRTcA"
