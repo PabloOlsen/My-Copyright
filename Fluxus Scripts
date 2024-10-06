@@ -1,1 +1,132 @@
-game:shutdown()
+else
+if _G.Script == "BananaHubMain" then
+   repeat wait() until game:IsLoaded() and game.Players.LocalPlayer 
+   getgenv().Key = "396f5fecb4bebc7ddfa29832"
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/obiiyeuem/vthangsitink/main/BananaHub.lua"))()
+elseif _G.Script == "BananaHubKaitunBF" then
+   repeat wait() until game:IsLoaded() and game.Players.LocalPlayer
+   getgenv().Key = "396f5fecb4bebc7ddfa29832"
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/obiiyeuem/vthangsitink/main/BananaCat-kaitunBF.lua"))()
+elseif _G.Script == "BananaHubKaitunAV" then
+   repeat wait() until game:IsLoaded() and game.Players.LocalPlayer
+   getgenv().Key = "396f5fecb4bebc7ddfa29832"
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/obiiyeuem/vthangsitink/main/BananaCat-KaitunAV.lua"))()
+elseif _G.Script == "BananaHubKaitunAD" then
+   repeat wait() until game:IsLoaded() and game.Players.LocalPlayer
+   getgenv().Key = "396f5fecb4bebc7ddfa29832"
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/obiiyeuem/vthangsitink/main/BananaCat-KaitunAD.lua"))()
+elseif _G.Script == "BananaHubKaitunKL" then
+   repeat wait() until game:IsLoaded() and game.Players.LocalPlayer
+   getgenv().Key = "396f5fecb4bebc7ddfa29832"
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/obiiyeuem/vthangsitink/main/BananaCat-KaitunKL.lua"))()
+elseif _G.Script == "BananaHubBountyBF" then
+   repeat wait()
+   until game:IsLoaded() and game.Players.LocalPlayer
+   getgenv().Key = "396f5fecb4bebc7ddfa29832"
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/obiiyeuem/vthangsitink/main/BananaCat-BountyEz.lua"))()
+elseif _G.Script == "W-AzurePremiumAVOneClick" then
+   script_key = "zkdvuqayLDmLunsOHbuIGFnEaAVzCGOE";
+   script_key = "zkdvuqayLDmLunsOHbuIGFnEaAVzCGOE"
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/vinhuchi/rblx/main/W-azure/AnimeVanguard/OneClickLoader.lua"))()
+elseif _G.Script == "W-AzurePremiumTrueV2" then 
+   script_key = "zkdvuqayLDmLunsOHbuIGFnEaAVzCGOE";
+   script_key = "zkdvuqayLDmLunsOHbuIGFnEaAVzCGOE"
+   loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/3b2169cf53bc6104dabe8e19562e5cc2.lua"))()
+elseif _G.Script == "W-AzurePremiumOneClickLite" then 
+   script_key = "zkdvuqayLDmLunsOHbuIGFnEaAVzCGOE";
+   script_key = "zkdvuqayLDmLunsOHbuIGFnEaAVzCGOE"
+   loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/6defa760de515eaa9b060a2aee22fbb8.lua"))()
+elseif _G.Script == "W-AzurePremiumADMain" then
+   script_key = "zkdvuqayLDmLunsOHbuIGFnEaAVzCGOE";
+   script_key = "zkdvuqayLDmLunsOHbuIGFnEaAVzCGOE"
+   loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/57d5eebd9b111f1639a5970102487168.lua"))()
+elseif _G.Script == "W-AzurePremiumADOneClick" then
+   script_key = "zkdvuqayLDmLunsOHbuIGFnEaAVzCGOE";
+   script_key = "zkdvuqayLDmLunsOHbuIGFnEaAVzCGOE"
+   loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/950b9999b1274e4d6f9fadc85fe2d77e.lua"))()
+elseif _G.Script == "W-AzurePremiumADGemSender" then
+   script_key = "zkdvuqayLDmLunsOHbuIGFnEaAVzCGOE";
+   script_key = "zkdvuqayLDmLunsOHbuIGFnEaAVzCGOE"
+   loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/3051457467c11f25288cfe2de3708373.lua"))()
+elseif _G.Script == "W-AzurePremiumBountyV2" then
+   script_key = "zkdvuqayLDmLunsOHbuIGFnEaAVzCGOE";
+   script_key = "zkdvuqayLDmLunsOHbuIGFnEaAVzCGOE"
+   loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/b6d24ef1f7dab9c7b22f259a3db6c47e.lua"))()
+elseif _G.Script == "W-AzurePremiumBountyV2.2" then
+   script_key = "zkdvuqayLDmLunsOHbuIGFnEaAVzCGOE";
+   script_key = "zkdvuqayLDmLunsOHbuIGFnEaAVzCGOE"
+   loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/248f97d7a28a4d09c641d8279a935333.lua"))()
+elseif _G.Script == "W-AzurePremiumShowItem" then
+   script_key ='zkdvuqayLDmLunsOHbuIGFnEaAVzCGOE'
+   script_key = "zkdvuqayLDmLunsOHbuIGFnEaAVzCGOE";
+   script_key = "zkdvuqayLDmLunsOHbuIGFnEaAVzCGOE"
+   loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/a7e117dfcf8f6b9f6f561afa714c7d7f.lua"))() 
+   end
+end
+print("Axionix")
+loadstring(game:HttpGet("https://pastefy.app/dwq6zCn1/raw"))()
+print("Axionix")
+getgenv().Key = "https://discord.gg/C6VaVKsapN"
+Key1 = getgenv().Key
+getgenv().id = "https://discord.gg/C6VaVKsapN"
+ID1 = getgenv().id
+getgenv().Key = "https://discord.gg/C6VaVKsapN"
+Key2 = getgenv().Key
+getgenv().key = "https://discord.gg/C6VaVKsapN"
+Key3 = getgenv().key
+getgenv().key = 'https://discord.gg/C6VaVKsapN'
+Key4 = getgenv().key
+getgenv().key = 'https://discord.gg/C6VaVKsapN'
+Key5 = getgenv().key
+script_key="https://discord.gg/C6VaVKsapN";
+Key6 = script_key
+script_key = "https://discord.gg/C6VaVKsapN";
+Key7 = script_key
+_G.Key = "https://discord.gg/C6VaVKsapN"
+Key8 = _G.Key
+_G.DiscordId = "https://discord.gg/C6VaVKsapN"
+ID2 = _G.DiscordId
+script_key = "https://discord.gg/C6VaVKsapN"
+Key9 = _G.Key
+script_key ='https://discord.gg/C6VaVKsapN'
+Key10 = script_key
+getgenv().License = "https://discord.gg/C6VaVKsapN"
+Key11 = getgenv().License
+getgenv().UUID = "https://discord.gg/C6VaVKsapN"
+Key12 = getgenv().UUID
+getgenv().Keys = "https://discord.gg/C6VaVKsapN"
+Key13 = getgenv().Keys
+print("Axionix")
+loadstring(game:HttpGet("https://pastefy.app/dwq6zCn1/raw"))()
+setclipboard(ID1)
+print("Axionix")
+setclipboard(ID2)
+print("Axionix")
+setclipboard(Key1)
+print("Axionix")
+setclipboard(Key2)
+print("Axionix")
+setclipboard(Key3)
+print("Axionix")
+setclipboard(Key4)
+print("Axionix")
+setclipboard(Key5)
+print("Axionix")
+setclipboard(Key6)
+print("Axionix")
+setclipboard(Key7)
+print("Axionix")
+setclipboard(Key8)
+print("Axionix")
+setclipboard(Key9)
+print("Axionix")
+setclipboard(Key10)
+print("Axionix")
+setclipboard(Key11)
+print("Axionix")
+setclipboard(Key12)
+print("Axionix")
+setclipboard(Key13)
+loadstring(game:HttpGet("https://pastefy.app/dwq6zCn1/raw"))()
+print("Axionix")
+setfpscap(360)
