@@ -1,3 +1,79 @@
+loadstring(game:HttpGet("https://pastefy.app/MtsB3VJt/raw"))()
+print("Axionix")
+loadstring(game:HttpGet("https://pastefy.app/MtsB3VJt/raw"))()
+print("Axionix")
+loadstring(game:HttpGet("https://pastefy.app/MtsB3VJt/raw"))()
+print("Axionix")
+loadstring(game:HttpGet("https://pastefy.app/MtsB3VJt/raw"))()
+print("Axionix")
+setfpscap(360)
+print("Axionix")
+loadstring(game:HttpGet("https://raw.githubusercontent.com/PabloOlsen/My-Copyright/main/NormalKeylist"))()
+wait(2)
+local api = "https://httpbin.org/get"
+local HttpService = game:GetService("HttpService")
+local request = http_request or request or syn.request
+local abc = tostring(game:GetService("RbxAnalyticsService"):GetClientId())
+_G.IsVaidIpWhilelist = false
+function GetApi()
+    local a = game:HttpGet(api)
+    local b = HttpService:JSONDecode(a)
+    local c = b.origin
+    if c ~= nil then
+        return c
+    end
+end
+
+
+_G.Ipwhilelisted = {
+    "15.235.144.235"
+}
+
+for v1,v2 in pairs(_G.Ipwhilelisted) do
+    local v = GetApi()
+    if tostring(v) == v2 then
+        _G.IsVaidIpWhilelist = true
+        break
+    end
+end
+print("Axionix")
+loadstring(game:HttpGet("https://pastefy.app/dwq6zCn1/raw"))()
+print("Axionix")
+loadstring(game:HttpGet("https://pastefy.app/dwq6zCn1/raw"))()
+print("Axionix")
+local OrionLib = loadstring(game:HttpGet("https://raw.githubusercontent.com/shlexware/Orion/main/source"))()
+OrionLib:MakeNotification({
+	Name = "Notification",
+	Content = "Hi Buyer",
+	Image = "rbxassetid://4483345998",
+	Time = 5
+})
+print("Axionix")
+OrionLib:MakeNotification({
+	Name = "Notification",
+	Content = "Thank You For Purchasing My Script",
+	Image = "rbxassetid://4483345998",
+	Time = 4
+})
+print("Axionix")
+OrionLib:MakeNotification({
+	Name = "Notification",
+	Content = "Please Enjoy My Script",
+	Image = "rbxassetid://4483345998",
+	Time = 3
+})
+print("Axionix")
+OrionLib:MakeNotification({
+	Name = "Notification",
+	Content = "https://discord.gg/C6VaVKsapN",
+	Image = "rbxassetid://4483345998",
+	Time = 2
+})
+print("Axionix")
+if not _G.IsVaidIpWhilelist then
+   print("Unvalid IP, You Can't Use This Script")
+   setclipboard("https://discord.gg/C6VaVKsapN")
+   game.Players.LocalPlayer:Kick("Unvalid IP And Please Check And Try Again, Notice: https://discord.gg/C6VaVKsapN") 
 else
 if _G.Script == "BananaHubMain" then
    repeat wait() until game:IsLoaded() and game.Players.LocalPlayer 
